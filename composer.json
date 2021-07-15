@@ -14,11 +14,13 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "infyomlabs/adminlte-templates": "^2.0",
         "infyomlabs/laravel-generator": "dev-develop",
+        "kinetix/payroll": "^1.0",
         "laracasts/flash": "^3.2",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
         "laravel/ui": "^3.2",
-        "laravelcollective/html": "^6.2"
+        "laravelcollective/html": "^6.2",
+        "livewire/livewire": "^2.4"
     },
     "require-dev": {
         "crestapps/laravel-code-generator": "^2.4",

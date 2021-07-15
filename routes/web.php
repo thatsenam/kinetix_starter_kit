@@ -181,3 +181,7 @@ Route::get('people/{id}/edit', [PersonController::class, 'edit'])->name('people.
 Route::get('people/{id}/show', [PersonController::class, 'show'])->name('people.show');
 Route::patch('people/{id}/update', [PersonController::class, 'update'])->name('people.update');
 Route::delete('people/{id}/delete', [PersonController::class, 'destroy'])->name('people.destroy');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
